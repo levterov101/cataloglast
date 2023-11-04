@@ -3,15 +3,55 @@
 @import './other/global';
 
 
-@import './other/pagescss/header.scss';
+.form-container {
+  width: 300px;
+}
 
+.filters {
+  display: flex;
 
+  &__block{
+    
+  }
 
-/* Импорт компонентов */
+  &__name{
+    padding: 10px 5px;
 
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6E7191;
+  }
 
+  &__label{
 
-/* Импорт компонентов end */
+  }
 
+}
 
-@import './other/pagescss/footer.scss'; 
+.checkbox{
+  &__list{
+    padding-right: 10px;
+  }
+
+  &__item{
+
+  }
+
+  &__text{
+    color: #6E7191;
+    font-size: 14px;
+  }
+
+  &__input{
+
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    
+
+  }
+}
